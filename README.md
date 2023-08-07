@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-Site Link: https://four-card-feature-section-master-kohis-solutionj.vercel.app
+Site Link: https://interactive-rating-component-main-kohis-solution.vercel.app
 ### Built with
 
 - Semantic HTML5 markup
