@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="min-h-screen grid place-content-center bg-[#141519] font-Overpass text-white">
+    <div class="max-w-[26rem] bg-gradient-to-b from-DarkBlue to-[#181C25] rounded-3xl">
+        <!-- Rating state start -->
+      <div class="p-8 flex flex-col gap-8 rating-section">
+        <div class="bg-LightGreyBlue w-14 h-14 grid place-content-center rounded-full">
+          <img src="images/icon-star.svg" alt="" class="w-4">
+        </div>
+        <div>
+          <p class="text-2xl pb-4">
+            How did we do?
+          </p>
+          <p class="text-LightGrey">
+            Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!  
+          </p>
+          
+        </div>
+        <div class="text-LightGrey font-bold flex justify-between">
+          <button class="btns w-14 h-14 bg-LightGreyBlue rounded-full hover:bg-LightGrey hover:text-white" >
+            1
+          </button>
+          <button class="btns w-14 h-14 bg-LightGreyBlue rounded-full hover:bg-LightGrey hover:text-white" >
+            2
+          </button>
+          <button class="btns w-14 h-14 bg-LightGreyBlue rounded-full hover:bg-LightGrey hover:text-white" >
+            3
+          </button>
+          <button class="btns w-14 h-14 bg-LightGreyBlue rounded-full hover:bg-LightGrey hover:text-white" >
+            4
+          </button>
+          <button class="btns w-14 h-14 bg-LightGreyBlue rounded-full hover:bg-LightGrey hover:text-white" >
+            5
+          </button>
+        </div>
+        <button class="submit-btn bg-Orange p-3 rounded-full font-semibold tracking-widest">
+          SUBMIT
+        </button>
+        </div>
+      <div class="submitted-section flex flex-col p-4 items-center text-center hidden">
+        <img src="images/illustration-thank-you.svg" alt="" class="m-4">
+        <div class="bg-LightGreyBlue px-4 py-1 rounded-full mb-8">
+          <p class="text-Orange rating-result">
+            You selected <!-- Add rating here -->out of 5
+          </p>
+        </div>
+        
+        <div class="mx-3 mb-8">
+          <p class="font-semibold text-3xl mb-4">
+            Thank you!
+          </p>
+          
+          <p class="text-LightGrey font-normal">
+            We appreciate you taking the time to give a rating. If you ever need more support, 
+            don’t hesitate to get in touch!
+          </p>
+        </div>
+        
+        
+        <!-- Thank you state end -->
+      </div>
+    
+
+    
+    </div>
+    
+  </main>
+  
+
+  <script src="index.js"></script>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

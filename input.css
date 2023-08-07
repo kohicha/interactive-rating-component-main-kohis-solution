@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/utilities";
+
+@import "tailwindcss/components";
+
+@font-face {
+    font-family: Overpass;
+    src: url('design/Overpass-VariableFont_wght.ttf') format('truetype');
+}
